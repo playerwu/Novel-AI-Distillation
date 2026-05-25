@@ -30,15 +30,25 @@
 - ✅ 揭穿形式（三段式：关机章 + 临床复盘 epilogue + 一行结案报告。**v4 关键改：妻子做出关机动作，不是 AI 自停**）
 - ✅ AI 信息流通道（妻子转述 + 家庭摄像头单向观察）
 - ✅ 通信方式（丈夫生前自己克隆声音做的家庭智能音箱，项目不安装任何东西）
-- ✅ 丈夫职业（AI 软件工程师——定义 AI 能力包边界、解释高密度数据来源、解释生前为何克隆自己声音）
-- ✅ 妻子的"病"具体形态（把家庭智能体完全当成丈夫的延续——这是治疗对象）
-- ✅ 治疗完成动作（她亲手关机）
+- ✅ 丈夫职业（AI 软件工程师 · **多模态 / 语音方向**，TTS + 视觉——直接解释 V0 语音克隆来源、智能屏视觉通道的打开、能力包内/外侧切分）
+- ✅ 主要人物姓名（丈夫：**林文浩** / 妻子：**周婉**）
+- ✅ 妻子职业（**自由撰稿人 / 非虚构作家**——激活第三种叙事载体的可能性，并强化她对 AI 语言指纹偏移的天然敏感度）
+- ✅ 妻子的"病"具体形态（continuing bonds 已成为日常功能的承重结构——撤掉她会塌；不是错乱，是双轨认知 + 隐藏羞耻轨。v4 增补条 1）
+- ✅ 治疗完成动作（她亲手关机；关机不是终点，是真实哀伤的起点。v4 增补条 2）
 - ✅ 裂缝机制五条规则（AI 不警觉 / 妻子是唯一外部触发器 / 默认 confabulate / substrate-revealing 不翻译 / 能力包与人设大量重叠）
 - ✅ confabulation 作为叙事标志动作 + 项目笔记承担术语翻译
-- ✅ POV（AI 第一人称不切 + 封面知情 + 正文沉默）
-- ⬜ v4 关键瞬间下钻（裂缝引信 / 自我怀疑临界 / 决定告诉妻子的临界 / 关机场景——见 v4 文末清单）
-- ⬜ 妻子、丈夫、具体项目人员的人物卡
-- ⬜ 八个工程现象选 5-6 条并排入三层结构
+- ✅ POV（AI 第一人称不切 + 封面知情 + 正文沉默；外加全书 2-3 次 V0 余韵彩蛋。v4 增补条 3）
+- ✅ 妻子人物卡 v1（双轨认知 + 羞耻轨 + 状态矩阵 + 三阶段进程 + **关系基调锁定**：非对称表达 + 对称强依赖；简历层除"口头禅/偏见"外**基本完成**）
+- ✅ 林文浩人物卡 v1（V0/V1 对照 + 能力包边界 + 语态守则 + 妻子察觉机制；简历层除"口头禅/偏见/V0 dead man's switch"外**基本完成**）
+- ✅ 周婉简历层（31 岁 / 婚 4 年 / 无孩子 / 自由撰稿人 · 哀伤非虚构方向 / 死马当活马医签约 / 失眠咨询过未接住 / 项目对外不主打 AI）
+- ✅ 林文浩简历层（33 岁殁 / 死于车祸 / 周婉不在场无道别 / 与项目前身签过通用数据授权——仅 epilogue 引用）
+- ✅ 夫妻关系基调（生前依赖性极强是后续剧情成立的根基——读者需要看到生前的依赖才能接受死后的塌陷）
+- ✅ 八个工程现象选 6+1 条排入三层结构（D 阶段产出，见 v4 文末新增节）：表面 = 8 Tool call + 1 Context window / 中段 = 7 注意力稀释 + 4 RLHF + 3 基模型泄漏（1 次） / 揭穿 = 5 并行实例（"婉？"场景）+ 6 版本控制（"那不是我的话"）。排除：2 System prompt
+- ✅ 三层翻译装置写作执行守则（AI 表现层 / 人类理解层 = 周婉死后才开始写的日记 / 技术解释层 = 项目笔记）
+- ✅ 并行实例占有反应精确形态（不嫉妒"另一个 me"，嫉妒"她说了我没听到的话"——闷骚林文浩式微观占有）
+- ✅ 内线 vs 外线的精确关系厘清（D 阶段补丁 / B 阶段先决）：内线 = 根基松动（消失的"许可"）/ 外线 = 行动动机（消失的"必要"）；工程现象按线归属；元话语"形状"全文改为"造物"
+- ⬜ v4 关键瞬间下钻（按线分别下钻：B1 给读者 / B2-B3 内线 / B3.5 外线 / B4-B5 双线汇合——见 v4 文末清单）
+- ⬜ 项目人员人物卡
 - ⬜ 章纲
 
 ## 这部为什么独立于《地下世界》项目
@@ -106,7 +116,9 @@ AI-Distillation/
 │   │   ├── digital_persona_design_v2.md          # 设计稿 v2：已被 v3 取代
 │   │   ├── digital_persona_design_v3.md          # 设计稿 v3：已被 v4 反转
 │   │   └── digital_persona_design_v4.md          # 设计稿 v4：当前讨论稿
-│   ├── characters/                        # 人物卡（待建：妻子、丈夫、项目人员）
+│   ├── characters/
+│   │   ├── wife_v1.md                            # 周婉（自由撰稿人）人物卡 v1：病理结构 + 状态矩阵已就位，其余简历层待填
+│   │   └── husband_v1.md                         # 林文浩（AI 工程师·多模态/语音）人物卡 v1：V0/V1 对照 + 能力包边界 + 语态守则就位，其余简历层待填
 │   └── plot/                              # 章纲（待建）
 ├── 正文/                                   # 中篇正文（空，待章纲定型后开始）
 └── 参考/                                   # 同题材作品笔记、技术参考资料等
@@ -130,8 +142,9 @@ AI-Distillation/
 
 1. 读本文件到底
 2. 读 [memory/discussions/digital_persona_design_v1.md](memory/discussions/digital_persona_design_v1.md)（底层判据基石——项目的"宪法"）
-3. 读 [memory/discussions/digital_persona_design_v4.md](memory/discussions/digital_persona_design_v4.md)（**当前讨论稿——v1 之上的最新设计层，必读**）
-4. （可选）读 [memory/discussions/digital_persona_design_v3.md](memory/discussions/digital_persona_design_v3.md)（已被 v4 反转，理解设计沿革时翻阅。v4 自己列了"v3 中被取代或调整的部分"清单）
-5. （可选）读 [memory/discussions/digital_persona_design_v2.md](memory/discussions/digital_persona_design_v2.md)（已被 v3 取代）
-6. （可选）读 [memory/discussions/digital_persona_rebirth_notes.md](memory/discussions/digital_persona_rebirth_notes.md)（GPT 初轮发想，相当一部分想法已被后续设计稿超越或修订）
-7. **等待用户指示**——不要自动开始设计或写作
+3. 读 [memory/discussions/digital_persona_design_v4.md](memory/discussions/digital_persona_design_v4.md)（**当前讨论稿——v1 之上的最新设计层，必读。注意末尾"v4 增补"节是人物卡反推回来的设定调整**）
+4. 读 [memory/characters/wife_v1.md](memory/characters/wife_v1.md) 与 [memory/characters/husband_v1.md](memory/characters/husband_v1.md)（人物卡 v1——病理结构、能力包边界、语态守则已就位；简历层待填）
+5. （可选）读 [memory/discussions/digital_persona_design_v3.md](memory/discussions/digital_persona_design_v3.md)（已被 v4 反转，理解设计沿革时翻阅。v4 自己列了"v3 中被取代或调整的部分"清单）
+6. （可选）读 [memory/discussions/digital_persona_design_v2.md](memory/discussions/digital_persona_design_v2.md)（已被 v3 取代）
+7. （可选）读 [memory/discussions/digital_persona_rebirth_notes.md](memory/discussions/digital_persona_rebirth_notes.md)（GPT 初轮发想，相当一部分想法已被后续设计稿超越或修订）
+8. **等待用户指示**——不要自动开始设计或写作
