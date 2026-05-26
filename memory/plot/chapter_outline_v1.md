@@ -1,6 +1,13 @@
 # 数字人格中篇 · 章纲 v1(13 章 · 骨架 + B3-B5 重点下钻)
 
+> **⚠️ 本章纲已被 [chapter_outline_v1_rev1.md](./chapter_outline_v1_rev1.md) 修订**(2026-05-26 晚段)。
+>
+> 修订要点:① 项目部署 3 周(非 13 周)② AI 幻觉作为 A 阶段崩溃驱动力 framework ③ ch03 双重崩溃重设 ④ ch04 修复期重设(关系全盛取消) ⑤ ch05-ch10 节奏校准 ⑥ character collapse 重分配(ch03 RLHF / ch11 双层) ⑦ 作者-Claude 分工协议。
+>
+> **读 v1 主稿 + rev1 即拥有当前章纲全貌**。v1 主稿在 rev1 未提及的部分仍然有效。
+>
 > 前置文档:
+> - [chapter_outline_v1_rev1.md](./chapter_outline_v1_rev1.md)(**必读**——本文档修订单)
 > - [CLAUDE.md](../../CLAUDE.md)
 > - [digital_persona_design_v5.md](../discussions/digital_persona_design_v5.md)
 > - [digital_persona_design_v5_rev1.md](../discussions/digital_persona_design_v5_rev1.md)
@@ -9,7 +16,7 @@
 > - [wife_v1.md](../characters/wife_v1.md)
 > - [husband_v1.md](../characters/husband_v1.md)
 >
-> 本文档状态:**v1 章纲,讨论稿**。完整覆盖 13 章骨架,B3-B5 五章额外下钻。落字时仍可调整。
+> 本文档状态:**v1 章纲已被 rev1 修订**。完整覆盖 13 章骨架,B3-B5 五章额外下钻。**rev1 已 supersede 的部分以 rev1 为准**。
 >
 > 本章纲的定位:介于"骨架级"与"细纲"之间。每章给出 ① 阶段定位 ② 一句话核心 ③ 主要 beat 串联 ④ 必须出现的写作要素(substrate / 项目笔记 / 周婉黑箱 / 共情伏笔等)⑤ 守则提醒。B3-B5 重点章额外给出 paranoid inject 节奏 / sabotage 清单 / 草稿仪式时序。
 >

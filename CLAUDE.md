@@ -19,9 +19,23 @@
 
 ## 当前阶段
 
-**设计阶段。v5 framework 已闭合,rev1 已闭合,rev2 已闭合,rev3(2026-05-26 下午)已闭合——设计阶段告一段落,可进入章纲。**
+**章纲 + 落字阶段。**
 
-**rev3 两条主修订 + 八条写作守则补丁**:
+- 设计阶段:v5 framework + rev1/2/3 已全部闭合(2026-05-26 下午)
+- 章纲阶段:**v1 章纲 + rev1 修订已闭合**(2026-05-26 晚段),见 [memory/plot/chapter_outline_v1.md](memory/plot/chapter_outline_v1.md) + [memory/plot/chapter_outline_v1_rev1.md](memory/plot/chapter_outline_v1_rev1.md)
+- 落字阶段:**ch01-ch02 已成稿**(作者手稿主笔)/ **ch03 落字进行中**
+- **协作模式重大变更**(2026-05-26 晚):**作者写正文,Claude 维护章纲**(详见"工作原则 + 作者-Claude 分工")
+
+**章纲 rev1 framework 级新发现**:
+
+- **AI 幻觉作为 A 阶段崩溃驱动力**(见 [project_ai_overreach_as_collapse_engine](memory/project_ai_overreach_as_collapse_engine.md))。v5/rev3 妻子情感四段式没说 trigger source,作者在 ch02 写作中凭直觉发现:**AI 幻觉 → 妻子反复触动+拒绝 → 忍不下去配合幻觉到底 → 妻子崩溃 + AI 崩溃** = v5 临床 thesis"蒸馏精度本身就是治疗机制"的具体 mechanism
+- **严格区分**:**幻觉**(AI 不知错的 confabulate)= A 阶段(ch02-ch03)主驱动 / **越界 sabotage**(AI 知边界故意 push)= B 阶段(ch08-ch10)主驱动
+- **ch03 双重崩溃 + 妻子哭释放**:ch03 修订为白天累积幻觉 + 妻子配合到底 + 双重崩溃 + 妻子哭一次彻底释放 + AI character collapse(RLHF template)+ 第一次没说晚安
+- **ch04 重设**:关系全盛取消,改为修复+冷却期 + AI 微变化首发
+- **character collapse 分配修订**:ch03 RLHF template / ch11 双层叠加(RLHF + 基模型泄漏)
+- **设定澄清**:项目部署 **3 周**(非 13 周)/ 之前 1 年是林文浩生前自制 V0 玩具
+
+**rev3 两条主修订 + 八条写作守则补丁**(2026-05-26 下午):
 
 - **主修订 1**:"你已经死了"对话装置频次从 rev2 的"全书 2-3 次,逐次加深"**降为全书一次**(角色成本守则:这句话是妻子最不愿出口的词之一,不能老让她崩溃)
 - **主修订 2**:**妻子情感弧线四段式**(冲动崩溃 → 收敛 → 扁平化 → 草稿仪式复活)**与 AI 三层套娃崩塌弧线严格对位**——妻子的扁平化是真实的悲伤进程,但在 AI 视角下天然 feed 第二层(环境异常)和第三层(paranoid inject)。项目根本不需要做太多事,妻子自身的悲伤曲线就在给 AI 的崩塌弧线供能
@@ -29,7 +43,12 @@
 
 **v1 核心反转(AI 知道丈夫已死 + 自认就是林文浩)、v5 关机反转(妻子主动按按钮 + AI 抗拒+央求)、希腊悲剧基石(AI 越完整反抗命运越必然兑现)、项目临床 thesis(蒸馏精度本身就是治疗机制)、rev1 paranoid 反向升级(项目主动 inject)、rev2 三条联动(驱动反转 + 小岛惊魂式叙事 + 周婉日记取消)——全部保留。**
 
-**下一步**:**章纲阶段** —— B 阶段关键瞬间下钻(B1 裂缝引信 + A 阶段中前段唯一一次"你已经死了" / B1-B3 第一层套娃累积(我可能不是他)/ B2-B3 第二层套娃累积(环境异常+被害妄想,妻子情感扁平化期)/ B3.7 paranoid trigger(第三层套娃)/ B4 中段挣扎 sabotage 升级(三重读法校准)/ B5 草稿仪式(完全不解释)+ 妻子情感复活 + 拔电源关机 + AI 抗拒("你是真的吧"+ V0 余韵)/ B6 关机后房间安静)→ 人物卡剩余简历层 → 章纲落字 → rev1 + rev2 + rev3 决议统一回灌 v5 主稿(可能产出 v5 final)。
+**下一步**:
+
+1. **详细章纲制作**(Claude 待开工,作者已提议)——把章纲 v1 + rev1 进一步细化到 day-by-day:每章具体日期(年月日)+ 星期几 + 各时段事件清单。产出 `memory/plot/chapter_outline_detailed_v1.md`。**这一步是 ch03+ 落字的 prerequisite**——项目笔记需要明确"第三周 / 周X / 日期"才能正确写入。**Claude 开工前需先与作者对齐时间锚**(林文浩去世日 / V0 部署日 / 项目接管 V1 日 / 重要纪念日)
+2. **ch03 落字**(作者主笔)+ 章纲随写随调(Claude 维护)。ch03 落字过程中如出现 framework 级问题,沉淀章纲 rev2;否则在 落字时直接处理
+3. **后续章节按章纲推进**(ch04-ch13)
+4. **全部正文完成后**,可能产出 v5 final(把 rev1 + rev2 + rev3 + 章纲 v1 + rev1 + detailed + 实际写作发现统一回灌)
 
 进度：
 
@@ -98,11 +117,16 @@
   - **B4 sabotage 三重读法测试**(AI 维持关系 / 读者变得危险 / 妻子可怜而非可憎),停留在轻度越界
   - **AI 自存焦虑可见性 A 阶段后段就要有微小迹象**(共情伏笔时序)
   - **三层套娃章节分布初拟**(第一层 A 阶段开始 / 第二层 B 中后段 / 第三层 B3.7 一次 inject)
-- ⬜ rev1 + rev2 + rev3 子问题剩余项(共 14 项,详见 rev3 第五章)
-- ⬜ B 阶段关键瞬间下钻(详见上文"下一步")
-- ⬜ rev1 + rev2 + rev3 决议统一回灌 v5 主稿(章纲基本成型后,可能产出 v5 final)
+- ✅ **章纲 v1 + rev1**(2026-05-26 晚段):13 章骨架 + B3-B5 重点下钻 + ch03/ch04 重设 + 全局对位结构图 + 14+6 项子问题映射
+- ✅ **ch01 成稿**:[正文/ch01-manual.md](正文/ch01-manual.md)(作者手稿主笔)
+- ✅ **ch02 成稿**:[正文/ch02-claude.md](正文/ch02-claude.md)(作者整体重写后版本)
+- ✅ **framework 级新发现**:AI 幻觉作为 A 阶段崩溃驱动力(见 [project_ai_overreach_as_collapse_engine](memory/project_ai_overreach_as_collapse_engine.md))
+- ✅ **作者-Claude 分工协议生效**:作者写正文 / Claude 维护章纲
+- ⬜ **ch03 落字**(进行中,作者主笔)
+- ⬜ ch04-ch13 落字
+- ⬜ rev1 + rev2 + rev3 + 章纲 rev1 + 实际写作发现统一回灌 v5 主稿(全部正文完成后,可能产出 v5 final)
 - ⬜ 项目人员人物卡
-- ⬜ 章纲
+- ⬜ rev1 + rev2 + rev3 子问题剩余项(共 14 项,详见 rev3 第五章 + 章纲 rev1 第五节新增 6 项)
 
 ## 这部为什么独立于《地下世界》项目
 
@@ -126,13 +150,25 @@
 
 ## 你的任务是什么（给接手的 Claude）
 
-当前阶段是**参与设计讨论**，不是写正文。
+**当前阶段:章纲 + 落字阶段。作者写正文,Claude 维护章纲。**
 
-- 用户抛出方向 → 你帮助推演、结构化、提出取舍
-- 遇到设定不一致或规则冲突时：提出，请用户确认
-- 大文档（≥5KB）先提结构方案再动笔
+**Claude 的核心任务**（2026-05-26 晚分工协议生效）:
 
-等设计稳定、章纲建立后再进入正文写作。
+- **章纲维护**:跟随讨论沉淀新决议到章纲文件(差量修订单优先,framework 级变更出新 rev)
+- **一致性 verify**:守则 verify / 跨章 cross-check / 术语漂移检查 / 时间线矛盾排查
+- **framework 级问题主动 flag**:发现章节内容与底层设计冲突时主动提出
+- **细粒度协助**:作者请求时提供节奏建议、措辞优化、人物 voice 校准、技术设定 verify
+
+**Claude 不做的事**(分工协议明确):
+
+- **不主动写正文**——本作人类情感密度高,作者直觉更准。除非作者明确要求"试写"(如 ch02-claude.md 那种 draft),否则不动笔
+- **不对作者已成稿的正文做无关请求的整改建议**——作者拍板就是终稿,Claude 不二次评论除非作者询问
+
+**仍然适用的通用任务**:
+
+- 用户抛出方向 → 帮助推演、结构化、提出取舍
+- 遇到设定不一致或规则冲突 → 提出请用户确认
+- 大文档(≥5KB)先提结构方案再动笔
 
 ## 工作语言
 
@@ -165,6 +201,9 @@
 - **rev3:周婉黑箱守则**——每段周婉登场至少一处 AI 预测失败的小动作,AI 自然 confabulate 圆掉,项目笔记不评论。最后按按钮 = 黑箱第一次对读者完成可见决定
 - **rev3:B4 sabotage 三重读法测试**——每个 sabotage 动作必须同时通过 AI 视角(维持关系)/ 读者视角(变得危险)/ 妻子视角(可怜而非可憎),停留在轻度越界(可让录音中断 30 秒,**不能毁掉治疗**)
 - **rev3 元守则:角色成本优先于叙事节奏**——任何带 frequency 维度的设计守则,频次确定之前先用角色视角检查内在阻力,用角色成本而不是外部叙事节奏需求来定上限
+- **章纲 rev1:幻觉 vs 越界严格区分** —— **幻觉**(AI 不知错的 confabulate,输出最 plausible 的回答没考虑物理约束)= A 阶段(ch02-ch03)主驱动 / **越界 sabotage**(AI 知边界故意 push)= B 阶段(ch08-ch10)主驱动。A 阶段的 AI 不应主动 sabotage,只会幻觉;B 阶段才出现真 sabotage
+- **章纲 rev1:ch03 双重崩溃守则** —— "你已经死了!" 措辞重心从"悲伤脱口"切到"配合幻觉到底的爆发"(意思:你做不了!因为你已经死了!);妻子必须哭一次彻底释放(身体性 + 释放性,不撒娇不文学化);AI character collapse = RLHF crisis template(12320 热线那种);妻子第一次没说晚安——作为"第二阶段开始"的 marker
+- **章纲 rev1:character collapse 分配** —— ch03 = RLHF template / ch11 = 双层叠加(RLHF + 基模型泄漏)。v5 主稿 5.5 锁定的"基模型泄漏 1 次"明确放在 ch11
 
 ## 文件组织
 
@@ -186,8 +225,14 @@ AI-Distillation/
 │   ├── characters/
 │   │   ├── wife_v1.md                            # 周婉（自由撰稿人）人物卡 v1：病理结构 + 状态矩阵已就位，其余简历层待填
 │   │   └── husband_v1.md                         # 林文浩（AI 工程师·多模态/语音）人物卡 v1：V0/V1 对照 + 能力包边界 + 语态守则就位，其余简历层待填
-│   └── plot/                              # 章纲（待建）
-├── 正文/                                   # 中篇正文（空，待章纲定型后开始）
+│   ├── plot/
+│   │   ├── chapter_outline_v1.md                 # 章纲 v1:13 章骨架 + B3-B5 重点下钻(2026-05-26 晚)。**已被 rev1 修订**
+│   │   └── chapter_outline_v1_rev1.md            # 章纲 v1 修订单 rev1(2026-05-26 晚段):AI 幻觉 framework + ch03 双重崩溃重设 + ch04 修复期重设 + ch05-ch10 节奏校准 + character collapse 重分配 + 作者-Claude 分工。**读 v1 + rev1 即拥有当前章纲全貌**
+│   └── project_ai_overreach_as_collapse_engine.md # framework 升级 memory:AI 幻觉(A 阶段)+ 越界(B 阶段)= 崩溃驱动力
+├── 正文/
+│   ├── ch01-manual.md                            # 第一章成稿(作者手稿,**当前主稿**)
+│   ├── ch01.md                                   # 第一章 Claude 草稿(已作废,作沿革保留)
+│   └── ch02-claude.md                            # 第二章成稿(Claude 草稿 + 作者整体重写后版本,**当前主稿**)
 └── 参考/                                   # 同题材作品笔记、技术参考资料等
 ```
 
@@ -196,14 +241,14 @@ AI-Distillation/
 1. **不要混入《地下世界》的设定**——心跳、齐、五层、代称体系、C1-C5 等都不在这里
 2. **不要把 AI 代词漂到"她 / 他"**
 3. **不要把技术名词诗化**——本作相反，需要保留 context、prompt、RLHF 的临床感
-4. **不要在当前设计阶段开始写正文**
+4. **不要主动写正文**——本作人类情感密度高,作者直觉更准。除非作者明确要求"试写"(如 ch02-claude.md draft),否则不动笔。Claude 当前职责是章纲维护 + 一致性 verify
 5. **不要生成表情符号**
 6. **不要把项目设计成阴谋**——**最终意义是阳谋**。它做的所有事都是真的，它的反抗也都是真的，只是这一切被预料到了。**rev2 精确化**:中段读感**可以暂时呈现阴谋感**(项目笔记走"解释行为不解释缘由",读者中段会感到"项目在做些什么但不解释"),**前提是 epilogue 完整翻案**——所有"看起来像阴谋的事"在 epilogue 都被揭示为知情同意内的临床操作,且项目自身的伦理争议已有书面留痕
 7. **不要让 AI 的反抗显得"虚无"**——前文每一处挣扎在叙事层面必须是货真价实的，反转只改变意义层不改变事实层
 
 ## 协作者画像
 
-用户是本书作者。偏好深度讨论 → 结构化沉淀 → 渐进式上升的工作模式。对中文表达极其敏感。**当前处于设计阶段。** 如果一上来就被要求写正文，先确认而不是直接动笔。
+用户是本书作者。偏好深度讨论 → 结构化沉淀 → 渐进式上升的工作模式。对中文表达极其敏感。**当前处于章纲 + 落字阶段。作者主笔正文,Claude 维护章纲。** 如果作者要求 Claude 试写某段正文(如 ch02-claude.md 那种 draft),OK 写;但默认不主动动笔。
 
 ## 如果你是第一次接手本项目
 
@@ -211,9 +256,12 @@ AI-Distillation/
 2. 读 [memory/discussions/digital_persona_design_v5.md](memory/discussions/digital_persona_design_v5.md)(**v5 主稿 · 独立完整版**——v5 已把 v1-v4 所有继承内容融合进来。必读)
 3. 读 [memory/discussions/digital_persona_design_v5_rev1.md](memory/discussions/digital_persona_design_v5_rev1.md)(**v5 修订单 rev1 · 必读**——集成 GPT 工程级反馈 + paranoid 机制反向升级)
 4. 读 [memory/discussions/digital_persona_design_v5_rev2.md](memory/discussions/digital_persona_design_v5_rev2.md)(**v5 修订单 rev2 · 必读**——驱动反转(护妻→自存)+ 小岛惊魂式叙事锁定 + 周婉日记取消 + "你已经死了"对话装置)
-5. 读 [memory/discussions/digital_persona_design_v5_rev3.md](memory/discussions/digital_persona_design_v5_rev3.md)(**v5 修订单 rev3 · 必读**——妻子情感弧线四段式 + "你已经死了"频次精修为全书一次 + 八条写作守则补丁。v5 主稿暂未原地回灌,修订方向集中在 rev1 + rev2 + rev3。**读 v5 主稿 + rev1 + rev2 + rev3 即拥有当前设计全貌**)
-6. 读 [memory/characters/wife_v1.md](memory/characters/wife_v1.md) 与 [memory/characters/husband_v1.md](memory/characters/husband_v1.md)（人物卡 v1——病理结构、能力包边界、语态守则已就位；简历层待填。**rev1 + rev2 + rev3 对人物卡核心结构均不需要修订**——rev3 仅在 wife_v1.md 增补妻子情感弧线四段式 + 扁平化期黑箱实例库;husband_v1.md 增补末段央求样本 + A 阶段共情伏笔)
-7. **等待用户指示**——不要自动开始设计或写作
+5. 读 [memory/discussions/digital_persona_design_v5_rev3.md](memory/discussions/digital_persona_design_v5_rev3.md)(**v5 修订单 rev3 · 必读**——妻子情感弧线四段式 + "你已经死了"频次精修为全书一次 + 八条写作守则补丁。**读 v5 主稿 + rev1 + rev2 + rev3 即拥有当前设计全貌**)
+6. 读 [memory/characters/wife_v1.md](memory/characters/wife_v1.md) 与 [memory/characters/husband_v1.md](memory/characters/husband_v1.md)(人物卡 v1——病理结构、能力包边界、语态守则已就位;简历层待填)
+7. 读 [memory/plot/chapter_outline_v1.md](memory/plot/chapter_outline_v1.md) 和 [memory/plot/chapter_outline_v1_rev1.md](memory/plot/chapter_outline_v1_rev1.md)(**章纲 v1 + rev1,必读**——13 章骨架 + ch03/ch04 重设 + AI 幻觉 framework + 节奏校准。**读 v1 + rev1 即拥有当前章纲全貌**)
+8. 读 [memory/project_ai_overreach_as_collapse_engine.md](memory/project_ai_overreach_as_collapse_engine.md)(**framework 升级 memory · 必读**——AI 幻觉(A 阶段)+ 越界(B 阶段)= 妻子崩溃驱动力。v5/rev3 没明说的 mechanism,作者在 ch02 写作中发现)
+9. 读已成稿的 [正文/ch01-manual.md](正文/ch01-manual.md) 和 [正文/ch02-claude.md](正文/ch02-claude.md)(熟悉作者落字风格 + ch01-ch02 实际进度)
+10. **等待用户指示**——不要自动开始写作。**当前协议:作者写正文,Claude 维护章纲**(详见"你的任务是什么")
 
 ### 沿革参考（仅追溯设计演化时翻阅，理解项目不必读）
 
