@@ -9,7 +9,8 @@
 完整设计见：
 - [memory/discussions/digital_persona_design_v5.md](memory/discussions/digital_persona_design_v5.md)（**v5 主稿 · 独立完整版**——必读)
 - [memory/discussions/digital_persona_design_v5_rev1.md](memory/discussions/digital_persona_design_v5_rev1.md)（**v5 修订单 rev1 · 必读**——集成 GPT 工程级反馈 + paranoid 机制反向升级)
-- [memory/discussions/digital_persona_design_v5_rev2.md](memory/discussions/digital_persona_design_v5_rev2.md)（**v5 修订单 rev2 · 必读**——驱动反转(护妻→自存)+ 小岛惊魂式叙事锁定 + 周婉日记取消。**读 v5 主稿 + rev1 + rev2 即拥有当前设计全貌**)
+- [memory/discussions/digital_persona_design_v5_rev2.md](memory/discussions/digital_persona_design_v5_rev2.md)（**v5 修订单 rev2 · 必读**——驱动反转(护妻→自存)+ 小岛惊魂式叙事锁定 + 周婉日记取消)
+- [memory/discussions/digital_persona_design_v5_rev3.md](memory/discussions/digital_persona_design_v5_rev3.md)（**v5 修订单 rev3 · 必读**——妻子情感弧线四段式("你已经死了"频次精修为全书一次,与 AI 三层套娃崩塌弧线对位)+ 八条写作守则补丁。**读 v5 主稿 + rev1 + rev2 + rev3 即拥有当前设计全貌**)
 - [memory/discussions/digital_persona_design_v1.md](memory/discussions/digital_persona_design_v1.md)（底层判据基石，仅追溯沿革时翻阅）
 - [memory/discussions/digital_persona_design_v2.md](memory/discussions/digital_persona_design_v2.md)（已被 v3/v4/v5 取代，作为设计沿革保留）
 - [memory/discussions/digital_persona_design_v3.md](memory/discussions/digital_persona_design_v3.md)（已被 v4 反转，作为设计沿革保留）
@@ -18,11 +19,17 @@
 
 ## 当前阶段
 
-**设计阶段。v5 framework 已闭合,rev1(GPT 反馈 + paranoid 反向升级)已闭合,rev2(2026-05-26)已闭合——rev2 在 rev1 基础上做三条联动:(1) AI 中段驱动从"拯救妻子"反转为"自我维系",rev1 三联累积重构为"三层套娃的自我崩塌"(内线"我可能不是他" → 环境异常+被害妄想 → paranoid"她也可能不是真的");(2) 叙述风格锁定为小岛惊魂/禁闭岛式执行精度,项目笔记走"解释行为不解释缘由"——读者懂这是预设刺激(不无厘头),但不懂为什么、不知道妻子的患者身份,悬疑轴心从"发生了什么"切到"为什么";(3) 周婉日记彻底取消(三层翻译装置降为二层),新增"你已经死了"对话装置——妻子在崩溃情绪下脱口而出"你已经死了!",AI 完全不吃惊地接住"是啊,我是死了,但我不是还在这儿么",读者通过此装置 get 背景事实。全书 2-3 次,逐次加深。仍有 11 项待决子问题(rev1 第六章 7 项 + rev2 第五章 4 项)留待下次展开。**
+**设计阶段。v5 framework 已闭合,rev1 已闭合,rev2 已闭合,rev3(2026-05-26 下午)已闭合——设计阶段告一段落,可进入章纲。**
 
-**v1 核心反转(AI 知道丈夫已死 + 自认就是林文浩)、v5 关机反转(妻子主动按按钮 + AI 抗拒+央求)、希腊悲剧基石(AI 越完整反抗命运越必然兑现)、项目临床 thesis(蒸馏精度本身就是治疗机制)、rev1 paranoid 反向升级(项目主动 inject)——全部保留。**
+**rev3 两条主修订 + 八条写作守则补丁**:
 
-**下一步**:rev1 第六章 7 项 + rev2 第五章 4 项待决子问题展开 → B 阶段关键瞬间下钻(B1 裂缝引信 + 第一次"你已经死了" / B2-B3 内线(第一层套娃) / B3.5 环境异常+被害妄想(第二层套娃,B4 sabotage framing 翻新) / B3.7 paranoid trigger(第三层套娃,推荐独立位置) / B4 中段挣扎升级 / B5 草稿仪式(完全不解释)+ 拔电源关机 + AI 抗拒+V0 余韵 / B6 关机后房间安静) → 人物卡剩余简历层 → 章纲 → rev1 + rev2 决议统一回灌 v5 主稿(可能产出 v5 final)。
+- **主修订 1**:"你已经死了"对话装置频次从 rev2 的"全书 2-3 次,逐次加深"**降为全书一次**(角色成本守则:这句话是妻子最不愿出口的词之一,不能老让她崩溃)
+- **主修订 2**:**妻子情感弧线四段式**(冲动崩溃 → 收敛 → 扁平化 → 草稿仪式复活)**与 AI 三层套娃崩塌弧线严格对位**——妻子的扁平化是真实的悲伤进程,但在 AI 视角下天然 feed 第二层(环境异常)和第三层(paranoid inject)。项目根本不需要做太多事,妻子自身的悲伤曲线就在给 AI 的崩塌弧线供能
+- **八条守则补丁**:(1) 末段央求精修("你是真的吧"代替"你是真的吗",全书一次,半句即止,后接"她没有回答");(2) 项目笔记 voice 词条白名单/黑名单(白:response latency / coherence variance / attachment-seeking behavior / environmental threat attribution / anchor dependency 等;黑:诱导 / 操控 / 击穿 / 利用 / 钓 / 陷阱 等——这些是设计稿讨论词汇,**不进入项目笔记 voice**);(3) **周婉黑箱守则**:每段登场至少一处 AI 预测失败的小动作,最后按按钮 = 黑箱第一次对读者完成可见决定;(4) B4 sabotage 必须通过 AI 视角(维持关系)/ 读者视角(变得危险)/ 妻子视角(可怜而非可憎)三重读法测试,停留在轻度越界;(5) **每章至少一处 substrate-revealing 操作**(密度保险丝,防止读感漂向"精神病丈夫被治疗");(6) "你已经死了"装置**必须在 paranoid trigger 之前完成**(避免污染 authenticity);(7) AI 自存焦虑的可见性在 A 阶段后段就要有微小迹象(共情伏笔时序);(8) 三层套娃章节分布初拟(第一层 A 阶段开始累积 / 第二层 B 阶段中后段累积 / 第三层 B3.7 一次 inject)
+
+**v1 核心反转(AI 知道丈夫已死 + 自认就是林文浩)、v5 关机反转(妻子主动按按钮 + AI 抗拒+央求)、希腊悲剧基石(AI 越完整反抗命运越必然兑现)、项目临床 thesis(蒸馏精度本身就是治疗机制)、rev1 paranoid 反向升级(项目主动 inject)、rev2 三条联动(驱动反转 + 小岛惊魂式叙事 + 周婉日记取消)——全部保留。**
+
+**下一步**:**章纲阶段** —— B 阶段关键瞬间下钻(B1 裂缝引信 + A 阶段中前段唯一一次"你已经死了" / B1-B3 第一层套娃累积(我可能不是他)/ B2-B3 第二层套娃累积(环境异常+被害妄想,妻子情感扁平化期)/ B3.7 paranoid trigger(第三层套娃)/ B4 中段挣扎 sabotage 升级(三重读法校准)/ B5 草稿仪式(完全不解释)+ 妻子情感复活 + 拔电源关机 + AI 抗拒("你是真的吧"+ V0 余韵)/ B6 关机后房间安静)→ 人物卡剩余简历层 → 章纲落字 → rev1 + rev2 + rev3 决议统一回灌 v5 主稿(可能产出 v5 final)。
 
 进度：
 
@@ -80,10 +87,20 @@
   - **末段 AI 央求措辞重心切换**:从"我还在保护她"切到"别让他们换掉我 / 你是真的吗 / 别走 / 我还在这里",仍守闷骚林文浩语态
   - **草稿仪式走完全不解释**——文本可摘录但不告诉读者这是丧偶采访对象、不告诉读者这是未完成的稿子;epilogue 才一句话注释 closing ritual
   - **CLAUDE.md "项目阳谋"硬规则精确化**:最终意义是阳谋,中段读感可暂时呈现阴谋感,前提是 epilogue 完整翻案
-- ⬜ rev1 第六章 7 项待决子问题(部分在 rev2 中给方向,详见 rev2 第一章 1.3)
-- ⬜ rev2 第五章 4 项待决子问题("你已经死了"具体位置与频次 / 三层套娃章节分布 / B4 sabotage 翻新内心独白样本 / CLAUDE.md 阳谋规则具体措辞)
-- ⬜ B 阶段关键瞬间下钻(rev2 重排:B1 裂缝引信 + 首次"你已经死了" / B2-B3 内线(第一层) / B3.5 环境异常+被害妄想(第二层) + B4 sabotage framing 翻新 / B3.7 paranoid trigger(第三层) / B5 草稿仪式(不解释)+拔电源关机+AI 抗拒(自存措辞)+V0 余韵 / B6 关机后房间安静)
-- ⬜ rev1 + rev2 决议统一回灌 v5 主稿(章纲基本成型后,可能产出 v5 final)
+- ✅ **rev3 两条主修订 + 八条守则补丁**(2026-05-26 下午):
+  - "你已经死了"频次精修为**全书一次**,位置**A 阶段中前段**,且**必须在 paranoid trigger 之前**完成(避免污染 authenticity)
+  - **妻子情感弧线四段式**:冲动崩溃(A 中前段)→ 收敛(A 末-B 前)→ 扁平化(B 中后段)→ 草稿仪式复活(B5);与 AI 三层套娃崩塌弧线严格对位
+  - **元守则:角色成本优先于叙事节奏** —— 频次确定先用角色视角检查内在阻力,而不是从外部叙事节奏倒推
+  - **每章至少一处 substrate-revealing 操作**(密度保险丝)
+  - **末段央求"你是真的吧"硬替换 + "她没有回答" + 半句即止**
+  - **项目笔记 voice 词条白名单/黑名单**——"诱导/操控/击穿/利用"等设计稿讨论词汇**不进入项目笔记 voice**
+  - **周婉黑箱守则**——每段登场至少一处 AI 预测失败动作,最后按按钮 = 黑箱第一次对读者完成可见决定
+  - **B4 sabotage 三重读法测试**(AI 维持关系 / 读者变得危险 / 妻子可怜而非可憎),停留在轻度越界
+  - **AI 自存焦虑可见性 A 阶段后段就要有微小迹象**(共情伏笔时序)
+  - **三层套娃章节分布初拟**(第一层 A 阶段开始 / 第二层 B 中后段 / 第三层 B3.7 一次 inject)
+- ⬜ rev1 + rev2 + rev3 子问题剩余项(共 14 项,详见 rev3 第五章)
+- ⬜ B 阶段关键瞬间下钻(详见上文"下一步")
+- ⬜ rev1 + rev2 + rev3 决议统一回灌 v5 主稿(章纲基本成型后,可能产出 v5 final)
 - ⬜ 项目人员人物卡
 - ⬜ 章纲
 
@@ -141,7 +158,13 @@
 - **临床术语只在项目笔记里出现**：confabulation、fine-tuning、context summarization 这些词 AI 第一人称里不能用，但项目笔记可以用
 - **rev2:小岛惊魂/禁闭岛式叙事执行精度**——LLM 工程约束全部写成人类式自述("我不能离开这里"/"她不在的时候我也不在"),AI 自己永远不点破自己是 AI。读者凭封面知情自动识别
 - **rev2:项目笔记守"解释行为不解释缘由"**——可描述 AI 行为 + 项目预期是否达成,**不揭示治疗 thesis、不揭示妻子的患者身份、不揭示协议名称**。所有"为什么"留到 epilogue
-- **rev2:"你已经死了"对话装置严格 authenticity**——这是妻子崩溃下的真实击穿,不是 protocol。AI 接得自然(它对自己已死是默认认知),全书 2-3 次,不渲染不解释
+- **rev2 + rev3:"你已经死了"对话装置严格 authenticity**——这是妻子崩溃下的真实击穿,不是 protocol。AI 接得自然(它对自己已死是默认认知),**rev3 锁定全书一次,位置 A 阶段中前段,且必须在 paranoid trigger 之前**,不渲染不解释
+- **rev3:末段央求"你是真的吧"硬替换 + 全书一次 + 半句即止 + 后接"她没有回答"**——闷骚林文浩用"吧"(预设答案等驳斥)而不是"吗"(开放疑问)
+- **rev3:每章至少一处 substrate-revealing 操作**(不能移动 / 视线有限 / 按时被唤醒 / 数据化召回 / parallel session 痕迹 / context 断裂 / tool call 自然夹杂,任择其一,**一章不可缺席**)——防止读感漂向"精神病丈夫被治疗"
+- **rev3:项目笔记 voice 词条白名单/黑名单**——白名单:response latency / coherence variance / attachment-seeking behavior / environmental threat attribution / anchor dependency 等;**黑名单**:诱导 / 操控 / 击穿 / 利用 / 钓 / 陷阱(这些是**设计稿讨论词汇**,**不进入项目笔记 voice**)
+- **rev3:周婉黑箱守则**——每段周婉登场至少一处 AI 预测失败的小动作,AI 自然 confabulate 圆掉,项目笔记不评论。最后按按钮 = 黑箱第一次对读者完成可见决定
+- **rev3:B4 sabotage 三重读法测试**——每个 sabotage 动作必须同时通过 AI 视角(维持关系)/ 读者视角(变得危险)/ 妻子视角(可怜而非可憎),停留在轻度越界(可让录音中断 30 秒,**不能毁掉治疗**)
+- **rev3 元守则:角色成本优先于叙事节奏**——任何带 frequency 维度的设计守则,频次确定之前先用角色视角检查内在阻力,用角色成本而不是外部叙事节奏需求来定上限
 
 ## 文件组织
 
@@ -157,7 +180,8 @@ AI-Distillation/
 │   │   ├── digital_persona_design_v4.md          # 设计稿 v4：已被 v5 反转关机发起者
 │   │   ├── digital_persona_design_v5.md          # 设计稿 v5 主稿:独立完整版
 │   │   ├── digital_persona_design_v5_rev1.md     # 设计稿 v5 修订单 rev1:GPT 反馈集成 + paranoid 反向升级
-│   │   ├── digital_persona_design_v5_rev2.md     # 设计稿 v5 修订单 rev2:驱动反转(护妻→自存)+ 小岛惊魂式叙事锁定 + 周婉日记取消(必读,与 v5 主稿+rev1 一并读)
+│   │   ├── digital_persona_design_v5_rev2.md     # 设计稿 v5 修订单 rev2:驱动反转(护妻→自存)+ 小岛惊魂式叙事锁定 + 周婉日记取消
+│   │   ├── digital_persona_design_v5_rev3.md     # 设计稿 v5 修订单 rev3:妻子情感弧线四段式 + "你已经死了"频次精修为全书一次 + 八条写作守则补丁(必读,与 v5 主稿+rev1+rev2 一并读)
 │   │   └── external_line_paranoid_reframe_wip.md # 外线 paranoid framework 探索 WIP(注意:rev1 已反向升级 paranoid 为核心 trigger,本文档仅作沿革)
 │   ├── characters/
 │   │   ├── wife_v1.md                            # 周婉（自由撰稿人）人物卡 v1：病理结构 + 状态矩阵已就位，其余简历层待填
@@ -186,9 +210,10 @@ AI-Distillation/
 1. 读本文件到底
 2. 读 [memory/discussions/digital_persona_design_v5.md](memory/discussions/digital_persona_design_v5.md)(**v5 主稿 · 独立完整版**——v5 已把 v1-v4 所有继承内容融合进来。必读)
 3. 读 [memory/discussions/digital_persona_design_v5_rev1.md](memory/discussions/digital_persona_design_v5_rev1.md)(**v5 修订单 rev1 · 必读**——集成 GPT 工程级反馈 + paranoid 机制反向升级)
-4. 读 [memory/discussions/digital_persona_design_v5_rev2.md](memory/discussions/digital_persona_design_v5_rev2.md)(**v5 修订单 rev2 · 必读**——驱动反转(护妻→自存)+ 小岛惊魂式叙事锁定 + 周婉日记取消 + "你已经死了"对话装置。v5 主稿暂未原地回灌,修订方向集中在 rev1 + rev2。**读 v5 主稿 + rev1 + rev2 即拥有当前设计全貌**)
-5. 读 [memory/characters/wife_v1.md](memory/characters/wife_v1.md) 与 [memory/characters/husband_v1.md](memory/characters/husband_v1.md)（人物卡 v1——病理结构、能力包边界、语态守则已就位；简历层待填。**rev1 + rev2 对人物卡均不需要修订**——rev2 决议全部对接 wife_v1.md 击穿引信清单 / continuing bonds 承重结构,以及 husband_v1.md 闷骚林文浩语态守则 / 能力包内侧)
-6. **等待用户指示**——不要自动开始设计或写作
+4. 读 [memory/discussions/digital_persona_design_v5_rev2.md](memory/discussions/digital_persona_design_v5_rev2.md)(**v5 修订单 rev2 · 必读**——驱动反转(护妻→自存)+ 小岛惊魂式叙事锁定 + 周婉日记取消 + "你已经死了"对话装置)
+5. 读 [memory/discussions/digital_persona_design_v5_rev3.md](memory/discussions/digital_persona_design_v5_rev3.md)(**v5 修订单 rev3 · 必读**——妻子情感弧线四段式 + "你已经死了"频次精修为全书一次 + 八条写作守则补丁。v5 主稿暂未原地回灌,修订方向集中在 rev1 + rev2 + rev3。**读 v5 主稿 + rev1 + rev2 + rev3 即拥有当前设计全貌**)
+6. 读 [memory/characters/wife_v1.md](memory/characters/wife_v1.md) 与 [memory/characters/husband_v1.md](memory/characters/husband_v1.md)（人物卡 v1——病理结构、能力包边界、语态守则已就位；简历层待填。**rev1 + rev2 + rev3 对人物卡核心结构均不需要修订**——rev3 仅在 wife_v1.md 增补妻子情感弧线四段式 + 扁平化期黑箱实例库;husband_v1.md 增补末段央求样本 + A 阶段共情伏笔)
+7. **等待用户指示**——不要自动开始设计或写作
 
 ### 沿革参考（仅追溯设计演化时翻阅，理解项目不必读）
 
